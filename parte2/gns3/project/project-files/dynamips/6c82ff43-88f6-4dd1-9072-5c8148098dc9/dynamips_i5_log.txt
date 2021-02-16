@@ -1,0 +1,63 @@
+Jun 21 15:20:24.275 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Jun 21 15:20:24.276 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54059.
+Jun 21 15:20:24.285 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 21 15:20:24.286 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips 
+Jun 21 15:20:24.286 GENERAL: working_dir=/Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips
+Jun 21 15:20:24.286 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips/6c82ff43-88f6-4dd1-9072-5c8148098dc9 
+Jun 21 15:20:24.286 GENERAL: working_dir=/Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips/6c82ff43-88f6-4dd1-9072-5c8148098dc9
+Jun 21 15:20:24.286 HYPERVISOR: exec_cmd: vm create ISP3 5 c7200 
+Jun 21 15:20:24.287 VM: VM ISP3 created.
+Jun 21 15:20:24.288 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP3 5004 
+Jun 21 15:20:24.288 HYPERVISOR: exec_cmd: c7200 get_mac_addr ISP3 
+Jun 21 15:20:24.289 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:24.289 HYPERVISOR: exec_cmd: vm slot_add_binding ISP3 0 0 C7200-IO-FE 
+Jun 21 15:20:24.290 HYPERVISOR: exec_cmd: vm set_disk0 ISP3 0 
+Jun 21 15:20:24.290 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:24.290 HYPERVISOR: exec_cmd: vm set_idle_pc ISP3 0x60608040 
+Jun 21 15:20:24.291 HYPERVISOR: exec_cmd: vm set_ios ISP3 /Users/ruisantos/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 21 15:20:24.292 HYPERVISOR: exec_cmd: c7200 set_mac_addr ISP3 ca05.cbeb.0000 
+Jun 21 15:20:24.292 HYPERVISOR: exec_cmd: vm set_nvram ISP3 512 
+Jun 21 15:20:24.292 HYPERVISOR: exec_cmd: vm set_ram ISP3 512 
+Jun 21 15:20:24.293 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:24.293 HYPERVISOR: exec_cmd: vm slot_remove_binding ISP3 0 0 
+Jun 21 15:20:24.293 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:24.293 HYPERVISOR: exec_cmd: vm slot_add_binding ISP3 0 0 C7200-IO-2FE 
+Jun 21 15:20:24.294 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:24.294 HYPERVISOR: exec_cmd: vm slot_add_binding ISP3 1 0 PA-2FE-TX 
+Jun 21 15:20:24.294 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:24.294 HYPERVISOR: exec_cmd: vm slot_add_binding ISP3 2 0 PA-2FE-TX 
+Jun 21 15:20:24.295 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:24.295 HYPERVISOR: exec_cmd: vm slot_add_binding ISP3 3 0 PA-2FE-TX 
+Jun 21 15:20:24.295 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:24.295 HYPERVISOR: exec_cmd: vm slot_add_binding ISP3 4 0 PA-2FE-TX 
+Jun 21 15:20:26.369 HYPERVISOR: exec_cmd: nio create_udp udp-1034d4bf-82e1-4d1a-92bb-57af3d6d7c91 10024 127.0.0.1 10025 
+Jun 21 15:20:26.591 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP3 0 0 udp-1034d4bf-82e1-4d1a-92bb-57af3d6d7c91 
+Jun 21 15:20:26.591 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:27.107 HYPERVISOR: exec_cmd: nio create_udp udp-3a3b19a7-7e43-4a03-88dd-16a9ba319b42 10038 127.0.0.1 10039 
+Jun 21 15:20:27.108 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP3 0 1 udp-3a3b19a7-7e43-4a03-88dd-16a9ba319b42 
+Jun 21 15:20:27.108 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:27.435 HYPERVISOR: exec_cmd: nio create_udp udp-f2d4a772-df32-4876-8688-76ea70a53f0b 10052 127.0.0.1 10053 
+Jun 21 15:20:27.437 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP3 1 0 udp-f2d4a772-df32-4876-8688-76ea70a53f0b 
+Jun 21 15:20:27.437 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:45.042 HYPERVISOR: exec_cmd: vm set_ghost_status ISP3 2 
+Jun 21 15:20:45.043 HYPERVISOR: exec_cmd: vm set_ghost_file ISP3 /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 21 15:20:45.043 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 15:20:45.044 HYPERVISOR: exec_cmd: vm set_config ISP3 configs/i5_startup-config.cfg configs/i5_private-config.cfg 
+Jun 21 15:20:45.045 HYPERVISOR: exec_cmd: vm start ISP3 
+Jun 21 15:21:15.275 HYPERVISOR: exec_cmd: vm extract_config ISP3 
+Jun 21 15:22:15.282 HYPERVISOR: exec_cmd: vm extract_config ISP3 
+Jun 21 16:00:22.390 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 16:00:22.395 HYPERVISOR: exec_cmd: vm stop ISP3 
+Jun 21 16:00:22.965 VM: VM ISP3 shutdown.
+Jun 21 16:00:22.966 HYPERVISOR: exec_cmd: vm extract_config ISP3 
+Jun 21 16:01:56.276 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 16:02:01.013 HYPERVISOR: exec_cmd: vm extract_config ISP3 
+Jun 21 16:02:10.467 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 16:02:15.196 HYPERVISOR: exec_cmd: vm extract_config ISP3 
+Jun 21 16:07:46.678 HYPERVISOR: exec_cmd: vm get_status ISP3 
+Jun 21 16:07:51.061 HYPERVISOR: exec_cmd: vm extract_config ISP3 
+Jun 21 16:07:55.445 HYPERVISOR: exec_cmd: vm delete ISP3 
+Jun 21 16:07:55.445 VM: VM ISP3 destroyed.
+Jun 21 16:07:59.800 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 21 16:08:00.264 HYPERVISOR: Stopped.
+Jun 21 16:08:00.264 GENERAL: reset done.

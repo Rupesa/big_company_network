@@ -1,0 +1,84 @@
+Jun 21 15:20:24.197 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Jun 21 15:20:24.197 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54053.
+Jun 21 15:20:24.208 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 21 15:20:24.208 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips 
+Jun 21 15:20:24.208 GENERAL: working_dir=/Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips
+Jun 21 15:20:24.208 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips/5ed04ba5-1c48-4309-8ff7-770544ad495c 
+Jun 21 15:20:24.208 GENERAL: working_dir=/Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips/5ed04ba5-1c48-4309-8ff7-770544ad495c
+Jun 21 15:20:24.209 HYPERVISOR: exec_cmd: vm create ISP1 3 c7200 
+Jun 21 15:20:24.209 VM: VM ISP1 created.
+Jun 21 15:20:24.209 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP1 5002 
+Jun 21 15:20:24.209 HYPERVISOR: exec_cmd: c7200 get_mac_addr ISP1 
+Jun 21 15:20:24.210 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:24.210 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1 0 0 C7200-IO-FE 
+Jun 21 15:20:24.210 HYPERVISOR: exec_cmd: vm set_disk0 ISP1 0 
+Jun 21 15:20:24.210 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:24.211 HYPERVISOR: exec_cmd: vm set_idle_pc ISP1 0x60608040 
+Jun 21 15:20:24.211 HYPERVISOR: exec_cmd: vm set_ios ISP1 /Users/ruisantos/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 21 15:20:24.211 HYPERVISOR: exec_cmd: c7200 set_mac_addr ISP1 ca03.cbe9.0000 
+Jun 21 15:20:24.212 HYPERVISOR: exec_cmd: vm set_nvram ISP1 512 
+Jun 21 15:20:24.212 HYPERVISOR: exec_cmd: vm set_ram ISP1 512 
+Jun 21 15:20:24.212 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:24.212 HYPERVISOR: exec_cmd: vm slot_remove_binding ISP1 0 0 
+Jun 21 15:20:24.213 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:24.213 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1 0 0 C7200-IO-2FE 
+Jun 21 15:20:24.213 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:24.213 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1 1 0 PA-2FE-TX 
+Jun 21 15:20:24.214 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:24.214 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1 2 0 PA-2FE-TX 
+Jun 21 15:20:24.214 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:24.214 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1 3 0 PA-2FE-TX 
+Jun 21 15:20:24.214 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:24.214 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1 4 0 PA-2FE-TX 
+Jun 21 15:20:24.898 HYPERVISOR: exec_cmd: nio create_udp udp-d5ca4a3d-5b39-4d94-9b59-9ff04d456067 10002 127.0.0.1 10003 
+Jun 21 15:20:25.114 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP1 0 0 udp-d5ca4a3d-5b39-4d94-9b59-9ff04d456067 
+Jun 21 15:20:25.115 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:26.121 HYPERVISOR: exec_cmd: nio create_udp udp-0c57e148-00a4-44fb-a7c6-15d319d3f9c5 10016 127.0.0.1 10017 
+Jun 21 15:20:26.123 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP1 0 1 udp-0c57e148-00a4-44fb-a7c6-15d319d3f9c5 
+Jun 21 15:20:26.123 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:27.658 HYPERVISOR: exec_cmd: nio create_udp udp-1d04b3c6-b125-47b0-8ea5-9b87c8af483d 10060 127.0.0.1 10061 
+Jun 21 15:20:27.659 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP1 1 0 udp-1d04b3c6-b125-47b0-8ea5-9b87c8af483d 
+Jun 21 15:20:27.660 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:28.297 HYPERVISOR: exec_cmd: nio create_udp udp-7908de72-ffd3-477f-b125-d95423c3270b 10072 127.0.0.1 10073 
+Jun 21 15:20:28.299 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP1 1 1 udp-7908de72-ffd3-477f-b125-d95423c3270b 
+Jun 21 15:20:28.299 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:43.997 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jun 21 15:20:43.997 VM: VM Ghost created.
+Jun 21 15:20:43.998 HYPERVISOR: exec_cmd: vm set_ios Ghost /Users/ruisantos/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 21 15:20:43.999 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 21 15:20:43.999 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 21 15:20:43.999 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jun 21 15:20:44.000 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 21 15:20:44.002 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Jun 21 15:20:44.002 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 21 15:20:44.389 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 21 15:20:44.390 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jun 21 15:20:44.780 VM: VM Ghost shutdown.
+Jun 21 15:20:44.781 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jun 21 15:20:44.782 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 21 15:20:44.782 VM: VM Ghost destroyed.
+Jun 21 15:20:44.784 HYPERVISOR: exec_cmd: vm set_ghost_status ISP1 2 
+Jun 21 15:20:44.784 HYPERVISOR: exec_cmd: vm set_ghost_file ISP1 /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 21 15:20:44.785 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:20:44.785 HYPERVISOR: exec_cmd: vm set_config ISP1 configs/i3_startup-config.cfg configs/i3_private-config.cfg 
+Jun 21 15:20:44.785 HYPERVISOR: exec_cmd: vm start ISP1 
+Jun 21 15:21:15.014 HYPERVISOR: exec_cmd: vm extract_config ISP1 
+Jun 21 15:22:45.023 HYPERVISOR: exec_cmd: vm extract_config ISP1 
+Jun 21 15:48:22.011 HYPERVISOR: exec_cmd: vm extract_config ISP1 
+Jun 21 15:58:05.684 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 15:58:47.447 HYPERVISOR: exec_cmd: vm stop ISP1 
+Jun 21 15:58:47.830 VM: VM ISP1 shutdown.
+Jun 21 15:59:23.182 HYPERVISOR: exec_cmd: vm extract_config ISP1 
+Jun 21 16:00:02.859 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 16:00:08.088 HYPERVISOR: exec_cmd: vm extract_config ISP1 
+Jun 21 16:01:12.678 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 16:01:17.840 HYPERVISOR: exec_cmd: vm extract_config ISP1 
+Jun 21 16:01:27.418 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 16:01:32.187 HYPERVISOR: exec_cmd: vm extract_config ISP1 
+Jun 21 16:07:51.064 HYPERVISOR: exec_cmd: vm get_status ISP1 
+Jun 21 16:07:55.448 HYPERVISOR: exec_cmd: vm extract_config ISP1 
+Jun 21 16:07:59.805 HYPERVISOR: exec_cmd: vm delete ISP1 
+Jun 21 16:07:59.805 VM: VM ISP1 destroyed.
+Jun 21 16:08:04.105 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 21 16:08:04.217 HYPERVISOR: Stopped.
+Jun 21 16:08:04.217 GENERAL: reset done.

@@ -1,0 +1,82 @@
+Jun 11 01:07:08.195 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Jun 11 01:07:08.195 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 61596.
+Jun 11 01:07:08.203 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 11 01:07:08.203 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips 
+Jun 11 01:07:08.203 GENERAL: working_dir=/Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips
+Jun 11 01:07:08.204 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-2 
+Jun 11 01:07:14.268 HYPERVISOR: exec_cmd: nio create_udp udp-84010018-98a7-4b25-bd68-cc471e894f6f 10143 127.0.0.1 10142 
+Jun 11 01:07:14.268 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 
+Jun 11 01:07:14.272 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 11 01:07:14.391 HYPERVISOR: exec_cmd: nio create_udp udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 10147 127.0.0.1 10146 
+Jun 11 01:07:14.392 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 
+Jun 11 01:07:14.410 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 11 01:07:14.971 HYPERVISOR: exec_cmd: nio create_udp udp-9515ce58-a273-47c5-9eb2-d1d771869044 10163 127.0.0.1 10162 
+Jun 11 01:07:14.972 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 
+Jun 11 01:07:14.976 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 1 
+Jun 11 01:41:10.353 HYPERVISOR: exec_cmd: nio create_udp udp-25239338-1770-41c6-833c-b8bb606a6c92 10183 127.0.0.1 10182 
+Jun 11 01:41:10.354 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-25239338-1770-41c6-833c-b8bb606a6c92 
+Jun 11 01:41:10.369 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-25239338-1770-41c6-833c-b8bb606a6c92 1 
+Jun 11 01:45:42.854 HYPERVISOR: exec_cmd: nio create_udp udp-99923f36-98bd-4279-8d2f-e0fce340f534 10185 127.0.0.1 10184 
+Jun 11 01:45:42.855 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 
+Jun 11 01:45:42.863 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 1 
+Jun 11 02:33:06.773 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 11 02:33:06.775 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 11 02:33:06.775 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 1 
+Jun 11 02:33:06.776 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-25239338-1770-41c6-833c-b8bb606a6c92 1 
+Jun 11 02:33:06.776 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 1 
+Jun 11 23:46:54.349 HYPERVISOR: exec_cmd: ethsw rename Ethernetswitch-2 SWL2_2 
+Jun 11 23:46:54.371 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 11 23:46:54.372 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 11 23:46:54.392 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 1 
+Jun 11 23:46:54.392 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-25239338-1770-41c6-833c-b8bb606a6c92 1 
+Jun 11 23:46:54.393 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 1 
+Jun 11 23:46:54.541 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 11 23:46:54.541 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 11 23:46:54.542 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 1 
+Jun 11 23:46:54.542 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-25239338-1770-41c6-833c-b8bb606a6c92 1 
+Jun 11 23:46:54.543 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 1 
+Jun 11 23:46:54.643 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 11 23:46:54.644 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 11 23:46:54.644 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 1 
+Jun 11 23:46:54.645 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-25239338-1770-41c6-833c-b8bb606a6c92 1 
+Jun 11 23:46:54.645 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 1 
+Jun 11 23:46:54.840 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 11 23:46:54.840 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 11 23:46:54.840 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 1 
+Jun 11 23:46:54.841 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-25239338-1770-41c6-833c-b8bb606a6c92 1 
+Jun 11 23:46:54.841 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 1 
+Jun 11 23:46:57.359 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 11 23:46:57.360 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 11 23:46:57.360 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 1 
+Jun 11 23:46:57.360 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-25239338-1770-41c6-833c-b8bb606a6c92 1 
+Jun 11 23:46:57.361 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 1 
+Jun 11 23:47:00.091 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 11 23:47:00.091 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 11 23:47:00.092 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 1 
+Jun 11 23:47:00.092 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-25239338-1770-41c6-833c-b8bb606a6c92 1 
+Jun 11 23:47:00.092 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 1 
+Jun 11 23:47:04.984 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 11 23:47:04.985 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 11 23:47:04.986 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 1 
+Jun 11 23:47:04.986 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-25239338-1770-41c6-833c-b8bb606a6c92 1 
+Jun 11 23:47:04.987 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 1 
+Jun 11 23:55:13.829 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 11 23:55:13.832 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 11 23:55:13.833 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 4 
+Jun 11 23:55:13.833 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-25239338-1770-41c6-833c-b8bb606a6c92 5 
+Jun 11 23:55:13.833 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 1 
+Jun 12 00:25:06.036 HYPERVISOR: exec_cmd: nio bind_filter udp-9515ce58-a273-47c5-9eb2-d1d771869044 2 capture 
+Jun 12 00:25:06.037 HYPERVISOR: exec_cmd: nio setup_filter udp-9515ce58-a273-47c5-9eb2-d1d771869044 2 en10mb /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/tmp/captures/PC_Inv_Ethernet0_to_SWL2_2_Ethernet2.pcap 
+Jun 12 00:26:42.504 HYPERVISOR: exec_cmd: nio bind_filter udp-84010018-98a7-4b25-bd68-cc471e894f6f 2 capture 
+Jun 12 00:26:42.505 HYPERVISOR: exec_cmd: nio setup_filter udp-84010018-98a7-4b25-bd68-cc471e894f6f 2 en10mb /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/tmp/captures/ESW5_FastEthernet10_to_SWL2_2_Ethernet0.pcap 
+Jun 12 00:44:47.554 HYPERVISOR: exec_cmd: nio unbind_filter udp-84010018-98a7-4b25-bd68-cc471e894f6f 2 
+Jun 12 00:44:50.462 HYPERVISOR: exec_cmd: nio unbind_filter udp-9515ce58-a273-47c5-9eb2-d1d771869044 2 
+Jun 12 13:49:53.919 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_2 udp-84010018-98a7-4b25-bd68-cc471e894f6f 1 
+Jun 12 13:49:53.920 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_2 udp-63078181-59fe-4d0e-8775-ffaa2ea0e231 1 
+Jun 12 13:49:53.921 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-9515ce58-a273-47c5-9eb2-d1d771869044 4 
+Jun 12 13:49:53.921 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-25239338-1770-41c6-833c-b8bb606a6c92 5 
+Jun 12 13:49:53.921 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_2 udp-99923f36-98bd-4279-8d2f-e0fce340f534 10 
+Jun 14 14:18:12.979 HYPERVISOR: exec_cmd: ethsw delete SWL2_2 
+Jun 14 14:18:13.086 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 14 14:18:13.226 HYPERVISOR: Stopped.
+Jun 14 14:18:13.227 GENERAL: reset done.
