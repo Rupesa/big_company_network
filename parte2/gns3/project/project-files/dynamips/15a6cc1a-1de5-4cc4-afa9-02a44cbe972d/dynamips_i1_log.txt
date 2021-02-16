@@ -1,0 +1,63 @@
+Jun 21 15:20:24.121 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Jun 21 15:20:24.121 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54020.
+Jun 21 15:20:24.131 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 21 15:20:24.132 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips 
+Jun 21 15:20:24.132 GENERAL: working_dir=/Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips
+Jun 21 15:20:24.133 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips/15a6cc1a-1de5-4cc4-afa9-02a44cbe972d 
+Jun 21 15:20:24.133 GENERAL: working_dir=/Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips/15a6cc1a-1de5-4cc4-afa9-02a44cbe972d
+Jun 21 15:20:24.133 HYPERVISOR: exec_cmd: vm create ISP5 1 c7200 
+Jun 21 15:20:24.133 VM: VM ISP5 created.
+Jun 21 15:20:24.134 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP5 5000 
+Jun 21 15:20:24.134 HYPERVISOR: exec_cmd: c7200 get_mac_addr ISP5 
+Jun 21 15:20:24.134 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:24.135 HYPERVISOR: exec_cmd: vm slot_add_binding ISP5 0 0 C7200-IO-FE 
+Jun 21 15:20:24.135 HYPERVISOR: exec_cmd: vm set_disk0 ISP5 0 
+Jun 21 15:20:24.135 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:24.136 HYPERVISOR: exec_cmd: vm set_idle_pc ISP5 0x60608040 
+Jun 21 15:20:24.137 HYPERVISOR: exec_cmd: vm set_ios ISP5 /Users/ruisantos/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 21 15:20:24.137 HYPERVISOR: exec_cmd: c7200 set_mac_addr ISP5 ca01.cbe7.0000 
+Jun 21 15:20:24.137 HYPERVISOR: exec_cmd: vm set_nvram ISP5 512 
+Jun 21 15:20:24.138 HYPERVISOR: exec_cmd: vm set_ram ISP5 512 
+Jun 21 15:20:24.138 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:24.138 HYPERVISOR: exec_cmd: vm slot_remove_binding ISP5 0 0 
+Jun 21 15:20:24.139 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:24.139 HYPERVISOR: exec_cmd: vm slot_add_binding ISP5 0 0 C7200-IO-2FE 
+Jun 21 15:20:24.139 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:24.139 HYPERVISOR: exec_cmd: vm slot_add_binding ISP5 1 0 PA-2FE-TX 
+Jun 21 15:20:24.140 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:24.140 HYPERVISOR: exec_cmd: vm slot_add_binding ISP5 2 0 PA-2FE-TX 
+Jun 21 15:20:24.140 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:24.141 HYPERVISOR: exec_cmd: vm slot_add_binding ISP5 3 0 PA-2FE-TX 
+Jun 21 15:20:24.141 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:24.141 HYPERVISOR: exec_cmd: vm slot_add_binding ISP5 4 0 PA-2FE-TX 
+Jun 21 15:20:25.439 HYPERVISOR: exec_cmd: nio create_udp udp-5e635a49-5381-4066-a7e3-8b304c73db97 10008 127.0.0.1 10009 
+Jun 21 15:20:25.662 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP5 0 0 udp-5e635a49-5381-4066-a7e3-8b304c73db97 
+Jun 21 15:20:25.662 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:27.014 HYPERVISOR: exec_cmd: nio create_udp udp-44d7ec12-305e-4b8d-9d15-ee9bdd8529a4 10032 127.0.0.1 10033 
+Jun 21 15:20:27.015 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP5 0 1 udp-44d7ec12-305e-4b8d-9d15-ee9bdd8529a4 
+Jun 21 15:20:27.015 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:27.197 HYPERVISOR: exec_cmd: nio create_udp udp-d15c61ad-ea91-4e1d-a0eb-33a22f9b8206 10044 127.0.0.1 10045 
+Jun 21 15:20:27.198 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP5 1 0 udp-d15c61ad-ea91-4e1d-a0eb-33a22f9b8206 
+Jun 21 15:20:27.199 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:44.785 HYPERVISOR: exec_cmd: vm set_ghost_status ISP5 2 
+Jun 21 15:20:44.785 HYPERVISOR: exec_cmd: vm set_ghost_file ISP5 /Users/ruisantos/Desktop/ar/projeto/parte2/gns3/project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 21 15:20:44.786 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:20:44.786 HYPERVISOR: exec_cmd: vm set_config ISP5 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+Jun 21 15:20:44.787 HYPERVISOR: exec_cmd: vm start ISP5 
+Jun 21 15:21:15.035 HYPERVISOR: exec_cmd: vm extract_config ISP5 
+Jun 21 15:22:15.037 HYPERVISOR: exec_cmd: vm extract_config ISP5 
+Jun 21 15:59:23.123 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 15:59:57.435 HYPERVISOR: exec_cmd: vm stop ISP5 
+Jun 21 15:59:57.846 VM: VM ISP5 shutdown.
+Jun 21 16:00:02.868 HYPERVISOR: exec_cmd: vm extract_config ISP5 
+Jun 21 16:01:12.676 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 16:01:17.840 HYPERVISOR: exec_cmd: vm extract_config ISP5 
+Jun 21 16:01:27.418 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 16:01:32.187 HYPERVISOR: exec_cmd: vm extract_config ISP5 
+Jun 21 16:07:46.678 HYPERVISOR: exec_cmd: vm get_status ISP5 
+Jun 21 16:07:51.061 HYPERVISOR: exec_cmd: vm extract_config ISP5 
+Jun 21 16:07:55.446 HYPERVISOR: exec_cmd: vm delete ISP5 
+Jun 21 16:07:55.446 VM: VM ISP5 destroyed.
+Jun 21 16:07:59.800 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 21 16:08:00.000 HYPERVISOR: Stopped.
+Jun 21 16:08:00.001 GENERAL: reset done.
